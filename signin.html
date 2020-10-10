@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=Enter, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signin.css">
+    <title>Enter the Site</title>
+</head>
+<body>
+    <nav class="nav vl">
+        <div class="rightnav">
+       <h1  style="text-align: center;">Sign in to get access the customer support page</h1>
+        </div>
+     </nav>
+
+
+    <section class="container background">
+
+    <div class="mainbox vl">
+     <form class="form" action="index.html">
+       
+        <input id="email" class="input" type="email" value="" placeholder="Enter email" required><br><br>
+       <input id="password" class="input" type="password" value="" placeholder="Enter password" required><br><br>
+       
+       <input type="submit" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+       title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" 
+       class="btn" id="signin" value="sign in" onsubmit="window.location('index.html')"><br>
+     </form>
+     
+    </div> 
+    <div class="registerbox vl">
+        <form action="submit" class="form">
+            <input type="text" class="input" value="" placeholder="Enter your first name" required><br>
+            <input type="text" class="input" value="" placeholder="Enter your Last name" required><br>
+            <input type="email" class="input" value="" placeholder="Enter your username" required><br>
+            <input type="date" class="input" value="" placeholder="Enter your D.O.B" required><br>
+            <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" 
+            title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" 
+            class="input" value="" placeholder="Enter your password" required><br>
+            <input type="password" class="input" value="" placeholder="Reenter your password" required><br>
+            <input type="submit" class="btn" value="Submit" onsubmit="window.location('index.html')"><br><br>
+
+        </form>
+    </div>
+    </section>  
+</body>
+</html>
