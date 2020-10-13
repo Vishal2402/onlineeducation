@@ -299,5 +299,29 @@ html{
                 margin: 10px;
             }
             }
+@media only screen and (max-width: 600px){
+                section{
+                    margin: 10px 0;
+                }
+                .paras{
+                    height: auto;
+                    margin: 10px;
+                }
+                .contact input{
+                    width: auto;
+                    border: 3px  black;
+                    border-radius: 5px;
+                    padding: 5px 3px;
+                    margin: auto;        
+                }
+                .textarea{
+                    font-family: sans-serif;
+                    width: auto;
+                    border: 3px  black;
+                    border-radius: 5px;
+                    padding: 5px 3px;
+                    font-style: verdana;
+                }
+            }
 
             
